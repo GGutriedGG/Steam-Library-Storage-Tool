@@ -242,8 +242,8 @@ namespace Steam_Library_Storage_Tool
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = new System.Windows.Forms.ColumnHeader("Directory Storage Usage Tool");
-            this.Text = "Directory Storage Usage Tool";
+            this.Name = "Form1";
+            this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
